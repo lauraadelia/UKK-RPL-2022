@@ -1,0 +1,16 @@
+CRITICAL - 2022-02-14 19:54:49 --> Too few arguments to function App\Models\User_model::create(), 2 passed in D:\UKK\UKK\UKK\app\Controllers\Auth.php on line 24 and exactly 3 expected
+#0 D:\UKK\UKK\UKK\app\Controllers\Auth.php(24): App\Models\User_model::create('1234567', NULL)
+#1 D:\UKK\UKK\UKK\system\CodeIgniter.php(825): App\Controllers\Auth->register()
+#2 D:\UKK\UKK\UKK\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\UKK\UKK\UKK\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\UKK\UKK\UKK\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\UKK\UKK\UKK\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\UKK\\UKK\\...')
+#6 {main}
+CRITICAL - 2022-02-14 20:41:59 --> Too few arguments to function App\Models\User_model::create(), 2 passed in D:\UKK\UKK\UKK\app\Controllers\Auth.php on line 24 and exactly 3 expected
+#0 D:\UKK\UKK\UKK\app\Controllers\Auth.php(24): App\Models\User_model::create('123456', NULL)
+#1 D:\UKK\UKK\UKK\system\CodeIgniter.php(825): App\Controllers\Auth->register()
+#2 D:\UKK\UKK\UKK\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\UKK\UKK\UKK\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\UKK\UKK\UKK\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\UKK\UKK\UKK\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\UKK\\UKK\\...')
+#6 {main}

@@ -1,0 +1,28 @@
+CRITICAL - 2022-02-07 19:11:41 --> Class 'App\Models\User' not found
+#0 D:\UKK\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 D:\UKK\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\UKK\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\UKK\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\UKK\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\codeigni...')
+#5 {main}
+CRITICAL - 2022-02-07 19:18:56 --> Class 'App\Models\User' not found
+#0 D:\UKK\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 D:\UKK\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\UKK\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\UKK\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\UKK\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\codeigni...')
+#5 {main}
+CRITICAL - 2022-02-07 19:20:38 --> Class 'App\Models\User' not found
+#0 D:\UKK\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 D:\UKK\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\UKK\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\UKK\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\UKK\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\codeigni...')
+#5 {main}
+CRITICAL - 2022-02-07 19:26:02 --> Class 'App\Models\User' not found
+#0 D:\UKK\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 D:\UKK\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\UKK\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\UKK\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\UKK\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\codeigni...')
+#5 {main}

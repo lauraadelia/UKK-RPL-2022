@@ -1,0 +1,10 @@
+CRITICAL - 2022-02-01 20:44:23 --> Invalid file: auth/login.php
+#0 D:\UKK\codeigniter4-CodeIgniter4-70d881c\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+#1 D:\UKK\codeigniter4-CodeIgniter4-70d881c\system\Common.php(1089): CodeIgniter\View\View->render('auth/login', Array, true)
+#2 D:\UKK\codeigniter4-CodeIgniter4-70d881c\app\Controllers\Home.php(27): view('auth/login')
+#3 D:\UKK\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(825): App\Controllers\Home->login()
+#4 D:\UKK\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\UKK\codeigniter4-CodeIgniter4-70d881c\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\UKK\codeigniter4-CodeIgniter4-70d881c\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\UKK\codeigniter4-CodeIgniter4-70d881c\system\Commands\Server\rewrite.php(43): require_once('D:\\UKK\\codeigni...')
+#8 {main}
